@@ -1,0 +1,7 @@
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\bin\Debug\Techshop.exe.config
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\bin\Debug\Techshop.exe
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\bin\Debug\Techshop.pdb
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\obj\Debug\Techshop.csproj.AssemblyReference.cache
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\obj\Debug\Techshop.csproj.CoreCompileInputs.cache
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\obj\Debug\Techshop.exe
+C:\Users\abish\OneDrive\Desktop\Hexa C# coding\Techshop\Techshop\obj\Debug\Techshop.pdb
