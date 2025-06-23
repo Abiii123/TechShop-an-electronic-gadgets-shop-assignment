@@ -12,7 +12,7 @@ namespace Techshop
         private string firstName;
         private string lastName;
         private string email;
-        private string phone;
+        private int phone;
         private string address;
         private int orderCount;
 
@@ -20,11 +20,11 @@ namespace Techshop
         public string FirstName { get { return firstName; } set { firstName = value; } }
         public string LastName { get { return lastName; } set { lastName = value; } }
         public string Email { get { return email; } set { email = value; } }
-        public string Phone { get { return phone; } set { phone = value; } }
+        public int Phone { get { return phone; } set { phone = value; } }
         public string Address {get{ return address; } set { address = value; } }
         public int OrderCount { get { return orderCount; } set { orderCount = value; } }
 
-        public Customers(int customerID,string firstName,string lastName,string email,string phone,string address, int orderCount)
+        public Customers(int customerID,string firstName,string lastName,string email,int phone,string address, int orderCount)
         {
             CustomerID = customerID;
             FirstName = firstName;
@@ -43,7 +43,7 @@ namespace Techshop
             Console.WriteLine($"ID: {CustomerID},Name: {FirstName}{LastName}, Email: {Email},Phone: {phone},Address: {Address},Orders: {orderCount};");
              
         }
-        public void UpdateCustomerInfo( string email,string phone, string address)
+        public void UpdateCustomerInfo( string email,int phone, string address)
         {
             Email = email;
             Phone = phone;
@@ -266,7 +266,7 @@ namespace Techshop
 
         public void GetInventoryInfo()
         {
-            Console.WriteLine("---- Inventory Info ----");
+            Console.WriteLine("Inventory Info");
             Console.WriteLine($"InventoryID: {InventoryID}, Product: {ProductName}, Quantity: {QuantityInStock}, Updated: {LeastStockUpdate}, Value: {GetInventoryValue()}");
         }
     }
@@ -283,7 +283,7 @@ namespace TechShop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("===== TechShop Full User Input Program =====\n");
+            Console.WriteLine("TechShop Full User Input Program\n");
 
             //Customer Input
             Console.WriteLine("Enter Customer Details:");
